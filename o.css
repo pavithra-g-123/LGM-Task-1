@@ -1,0 +1,350 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    }
+    .e{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-image: url(./moun.jpeg);
+    background-position: center;
+    
+    }
+    .w{
+    color:white;
+    letter-spacing: 1px;
+    font-size: 35px;
+    cursor: pointer;
+    }
+    
+    .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+    }
+    ul li{
+    display: inline-block;
+    padding: 10px 30px;
+    }
+    ul li a{
+    color:white;
+    text-decoration: none;
+    font-size: 22px;
+    }
+    ul li a:hover{
+    color:blueviolet;
+    }
+    
+    .s{
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    padding-left: 400px;
+    }
+    h1{
+    color:blue;
+    padding: 20px 0 20px;
+    font-size: 50px;
+    }
+    h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+    }
+    h4{
+    color:white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    }
+    
+    
+      .button {
+        border: none;
+        color: white;
+        background-color: blueviolet;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+      .button1 {
+        border: none;
+        color: white;
+        background-color:rosybrown;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+      
+    
+      #y{
+          color: #000;
+      }
+    
+      #l{
+          width: 30%;
+          height: 100%;
+      }
+      .t{
+          display:flex;
+      }
+      #tt{
+          width: 10%;
+          height: 10%;
+          display: inline-block;
+          margin: 25px 100px;
+      }
+      .rr{
+        color: #000;
+      }
+      .r{
+        padding-bottom: 0 0 1px;
+        width:100%;
+        }
+        .b{
+          width:100%;
+          }
+          .c{
+          width:94%;
+          }
+        .r p{
+        
+      
+        width:80%;
+        font-style: italic;
+        color: #9400D3;
+        font-weight:bold;
+        font-size:large;}
+        
+        .wrapper{
+        margin:4rem 8rem 2rem;
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-columns: repeat(4,1fr);}
+    .wrappr{
+      margin:4rem 8rem 2rem;
+      display: grid;
+      grid-gap: 1rem;
+      grid-template-columns: repeat(4,1fr);
+    }
+    
+    
+    
+        .ccc {
+          float: left;
+          width: 33.33%;
+          padding: 10px;
+          height: 300px; 
+        }
+        
+        .ttt:after {
+          content: "";
+          display: grid;
+          clear: both;
+        }
+    
+    
+    .center {
+      margin: 0;
+      position: absolute;
+      
+      left: 50%;
+      border: none;
+        color: white;
+        background-color:blue;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+    
+    #button1{
+      margin: 0;
+      position: absolute;
+      
+      border: none;
+        color: white;
+        background-color:blue;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      left: 15%;
+      
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+    #button2{
+      margin: 0;
+      position: absolute;
+      
+    right: 8%;
+    background-color: blue;
+    border: none;
+    color: white;
+    
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+    
+    .rrr{
+      text-align:center;
+            width:100%;
+    }
+    #color{
+      color:black;
+    }
+    .pok{
+      position: relative;
+    }
+    .back{
+      background: lightskyblue;
+      height: 580px;
+      width: 100%;
+    }
+    .my{
+      position: absolute;
+      background-image: url(./people-1.jpeg);
+      
+      width:50%;
+      position: absolute;
+      height:400px;
+      left:50%;
+      top:468%;
+      transform: translate(-50%,-50%);
+      background-size: cover;
+      animation:slider 20s infinite linear;
+    }
+    
+    @keyframes slider{
+      0%{
+          background-image: url(./people-2.jpeg);
+      }
+      50%{
+          background-image: url(./people-3.jpeg);
+      }
+      90%{
+          background-image: url(./people-4.jpeg);
+      }
+    }
+    .blog1{
+      width: 80%;
+      border-radius: 50%;
+      margin-left: 45px;
+    }
+    
+    .blog2{
+      width: 75%;
+      border-radius: 50%;
+      margin-left: 55px;
+    }
+    
+    .blog3{
+      width: 70%;
+      border-radius: 50%;
+      margin-left: 60px;
+    }
+    
+    .blog{
+      padding-top: 20px;
+      width: 80%;
+      text-align: center;
+      padding-left: 60px;
+    }
+    
+    .carousel-content {
+      position: absolute;
+      bottom: 40%;
+      left: 10%;
+      z-index: 20;
+      color: white;
+      text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    }
+    
+    .bg{
+      background-color:lightblue;
+      padding-top: 70px;
+      padding-bottom: 70px;
+      padding-left: 430px;
+      margin-top: 100px;
+    }
+    .b{
+      width:100%;
+      height: 70%;
+      }
+      .c{
+      width:94%;
+      height: 50%;
+      }
+      .r{
+      padding-bottom: 0 0 1px;
+      width:100%;
+      }
+      .wrappper{
+      margin:4rem 8rem ;
+      display: grid; grid-gap: 5rem; grid-template-columns: repeat(3,1fr);}
+      .contact-form{
+        
+        
+      background-color:lightblue;
+     
+        padding: 40px;
+        width:1000px;
+        height: 580px;
+    
+      }
+    
+      .textarea{
+        height: 100px;
+       
+      }
+    
+      input[type=text],textarea{
+        width: 50%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 15px;
+        resize: vertical;
+      }
+      .bgg{
+        background-image: url(./paris.jpeg);
+        background-size: cover;
+        width: 100%;
+        height: 700px;
+        overflow: hidden;
+      }
+      .opo{
+        padding-left: 200px;
+      }
+      th,td{
+        padding-left: 100px;
+      }
